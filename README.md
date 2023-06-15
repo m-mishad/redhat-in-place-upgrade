@@ -29,7 +29,6 @@ df -hT
 cat /proc/mounts
 cat /etc/fstab
 ip a
-
 ```
 
 
