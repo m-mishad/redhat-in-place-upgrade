@@ -5,7 +5,7 @@
 
 ### Supported path: 
 
-![](media/1. Supported-upgrade-path.png)
+![](media/Supported-upgrade-path.png)
 
 
 ```cat /etc/redhat-release```
