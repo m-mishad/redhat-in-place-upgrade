@@ -17,27 +17,22 @@ For more information about supported path: (https://access.redhat.com/articles/4
 ## Step 2: Preparing the system for upgrade:
 
 
-```cat /etc/redhat-release```
+```
+cat /etc/redhat-release
+uname -a
+cat /proc/cpuinfo
+getenforce
+yum versionlock list
+yum versionlock clear
+lsblk
+df -hT
+cat /proc/mounts
+cat /etc/fstab
+ip a
 
-```uname -a```
+```
 
-```cat /proc/cpuinfo```
 
-```getenforce```
-
-```yum versionlock list```
-
-```yum versionlock clear```
-
-```lsblk```
-
-```df -hT```
-
-```cat /proc/mounts```
-
-```cat /etc/fstab```
-
-```ip a```
 
 ```systemctl --type=service --state=running```
 
