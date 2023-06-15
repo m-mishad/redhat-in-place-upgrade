@@ -3,10 +3,11 @@
 
 ## Step 1: Planning stage:
 
-### Supported path: 
+### 1.1 Supported path: 
 
 ![](media/Supported-upgrade-path.png)
 
+For more information about supported path: (https://access.redhat.com/articles/4263361)
 
 ```cat /etc/redhat-release```
 
