@@ -9,7 +9,7 @@
 
 ```cat /proc/cpuinfo```
 
-``` getenforce```
+```getenforce```
 
 ```yum versionlock list```
 
