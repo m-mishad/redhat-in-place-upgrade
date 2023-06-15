@@ -3,7 +3,7 @@
 
 ## Step 1: Planning stage:
 
-##### 1.1 Supported path: 
+##### 1.1 Supported path as of 15th June 2023: 
 
 ![](media/Supported-upgrade-path.png)
 
