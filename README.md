@@ -1,4 +1,4 @@
-# Red Hat Enterprise Linux 8 Upgrading from RHEL 7.9 to RHEL 8.6
+# Red Hat Enterprise Linux 8 Upgrading from RHEL 7.9 to RHEL 8.6 in AWS EC2 instances that are using RHUI.
 
 
 ## Step 1: Planning stage:
@@ -8,6 +8,10 @@
 ![](media/Supported-upgrade-path.png)
 
 For more information about supported path: (https://access.redhat.com/articles/4263361)
+
+### 1.2 Make sure the latest version of RHEL 7 is installed. 
+
+### 1.3 Make sure valid Redhat subscription is attched. 
 
 ```cat /etc/redhat-release```
 
