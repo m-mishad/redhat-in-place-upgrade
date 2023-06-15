@@ -1,7 +1,7 @@
 # Red Hat Enterprise Linux 8 Upgrading from RHEL 7.9 to RHEL 8.6
 
 
-## Planning stage
+### Planning stage:
 
 
 
