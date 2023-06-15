@@ -22,8 +22,9 @@ cat /etc/redhat-release
 uname -a
 cat /proc/cpuinfo
 getenforce
-yum versionlock list
-yum versionlock clear
+systemctl --type=service --state=running
+yum repolist
+yum list installed
 lsblk
 df -hT
 cat /proc/mounts
@@ -31,32 +32,41 @@ cat /etc/fstab
 ip a
 ```
 
+```
+yum versionlock list
+yum versionlock clear
+
+``` 
 
 
-```systemctl --type=service --state=running```
-
-```yum repolist```
-
-```yum list installed```
 
 
-```yum-config-manager --enable rhui-client-config-server-7```
+```
+yum-config-manager --enable rhui-client-config-server-7
+yum-config-manager --enable rhel-7-server-rhui-extras-rpms
+```
 
-```yum-config-manager --enable rhel-7-server-rhui-extras-rpms```
-
-```yum -y install rh-amazon-rhui-client leapp-rhui-aws```
-
-
-```yum update```
-
-```reboot```
-
-```yum install leapp-upgrade```
+```
+yum -y install rh-amazon-rhui-client leapp-rhui-aws
+```
 
 
-```wget https://access.redhat.com/articles/3664871```
+```
+yum update
+```
 
-```tar -xzf leapp-data-22.tar.gz -C /etc/leapp/files && rm leapp-data-22.tar.gz```
+```
+reboot
+```
+
+
+```
+wget https://access.redhat.com/articles/3664871
+
+```
+```
+tar -xzf leapp-data-22.tar.gz -C /etc/leapp/files && rm leapp-data-22.tar.gz
+```
 
 
 ```leapp preupgrade --target 8.6 --no-rhsm```
