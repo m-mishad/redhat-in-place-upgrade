@@ -3,15 +3,15 @@
 
 ## Step 1: Planning stage:
 
-### 1.1 Supported path: 
+#### 1.1 Supported path: 
 
 ![](media/Supported-upgrade-path.png)
 
 For more information about supported path: (https://access.redhat.com/articles/4263361)
 
-### 1.2 Make sure the latest version of RHEL 7 is installed. 
+#### 1.2 Make sure the latest version of RHEL 7 is installed. 
 
-### 1.3 Make sure valid Redhat subscription is attched. 
+#### 1.3 Make sure valid Redhat subscription is attched. 
 
 ```cat /etc/redhat-release```
 
