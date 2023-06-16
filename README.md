@@ -31,7 +31,7 @@ cat /proc/mounts
 cat /etc/fstab
 ip a
 ```
-To check any if there any packages are locked to a use specific version and to clear the version lock
+To check any if there any packages are locked to a use specific version and to clear the version lock:
 ```
 yum versionlock list
 yum versionlock clear
