@@ -39,7 +39,7 @@ yum versionlock clear
 ``` 
 
 
-To Enable repos:
+To enable repos:
 
 ```
 yum-config-manager --enable rhui-client-config-server-7
