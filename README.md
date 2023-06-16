@@ -7,7 +7,7 @@
 
 ![](media/Supported-upgrade-path.png)
 
-<p align="center"> <a [For more information about supported path:](https://access.redhat.com/articles/4263361) </a </p>
+[For more information about supported path](https://access.redhat.com/articles/4263361)
 
 ##### 1.2 Make sure the latest version of RHEL 7 is installed. 
 ##### 1.3 Make sure valid Redhat subscription is attched. 
