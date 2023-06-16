@@ -49,13 +49,10 @@ To install leapp upgrade utility:
 ```
 yum -y install rh-amazon-rhui-client leapp-rhui-aws
 ```
-
+To update the system to the latest version: 
 
 ```
 yum update
-```
-
-```
 reboot
 ```
 
