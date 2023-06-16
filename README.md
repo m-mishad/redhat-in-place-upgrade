@@ -45,7 +45,7 @@ To Enable repos:
 yum-config-manager --enable rhui-client-config-server-7
 yum-config-manager --enable rhel-7-server-rhui-extras-rpms
 ```
-
+To install leapp upgrade utility:
 ```
 yum -y install rh-amazon-rhui-client leapp-rhui-aws
 ```
