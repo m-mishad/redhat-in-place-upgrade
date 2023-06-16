@@ -64,7 +64,7 @@ wget https://access.redhat.com/articles/3664871
 ```
 tar -xzf leapp-data-22.tar.gz -C /etc/leapp/files && rm leapp-data-22.tar.gz
 ```
-
+To generate the pre-upgrade report:
 
 ```leapp preupgrade --target 8.6 --no-rhsm```
 
