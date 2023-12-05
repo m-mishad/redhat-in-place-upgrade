@@ -89,6 +89,7 @@ reboot
 ```
 
 Ref: 
-1. [Upgrading from RHEL 7 to RHEL 8](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/upgrading_from_rhel_7_to_rhel_8/index)
-2. (https://learningtechnix.wordpress.com/2021/10/18/linux-upgrading-from-redhat-7-to-8/)
+1. [Redhat documentation about upgrading from RHEL 7 to RHEL 8](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/upgrading_from_rhel_7_to_rhel_8/index)
+2. [blogs on upgrading to RHEL 8 from RHEL 7](https://learningtechnix.wordpress.com/2021/10/18/linux-upgrading-from-redhat-7-to-8/)
+3. [epel release on redhat OS on AWS instrances](https://repost.aws/knowledge-center/ec2-enable-epel)
 
