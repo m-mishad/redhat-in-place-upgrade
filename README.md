@@ -90,4 +90,5 @@ reboot
 
 Ref: 
 1. [Upgrading from RHEL 7 to RHEL 8](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/upgrading_from_rhel_7_to_rhel_8/index)
+2. (https://learningtechnix.wordpress.com/2021/10/18/linux-upgrading-from-redhat-7-to-8/)
 
