@@ -69,6 +69,24 @@ To generate the pre-upgrade report:
 ```leapp preupgrade --target 8.6 --no-rhsm```
 
 
+```
+yum update
+Unmount and # nfs entries from fstab
+leapp preupgrade --target 8.6 --no-rhsm
+leapp upgrade --target 8.6 --no-rhsm
+reboot
+fstab - remove # and
+mount -a -> df -h to check
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
+alternatives --set python /usr/bin/python3
+grub2-mkconfig -o /boot/grub2/grub.cfg
+yum list kernel
+yum erase
+rpm -qa | grep -i el7
+rm -rf /var/log/leapp /root/tmp_leapp_py3 /var/lib/leapp
+Reinstall p7zip
+reboot
+```
 
 Ref: 
 1. [Upgrading from RHEL 7 to RHEL 8](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/upgrading_from_rhel_7_to_rhel_8/index)
